@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Crear una página web utilizando HTML y JavaScript que permita filtrar una lista de palabras predefinidas mediante un formulario.
+•
+El formulario debe incluir un campo de texto (<input>) para ingresar una palabra o parte de ella, y un botón "Filtrar" para ejecutar la acción.
+•
+Al hacer clic en el botón, deben mostrarse únicamente las palabras de la lista que contengan el texto ingresado, sin importar mayúsculas o minúsculas.
+•
+Si el campo de texto está vacío al presionar el botón "Filtrar", se debe mostrar un mensaje de error y no realizar el filtrado.
+Requisitos:
+•
+La lista de palabras debe estar precargada en el script (por ejemplo: [“manzana”, “banana”, “pera”, “durazno”, “frutilla”, “mango”]).
+•
+El filtrado debe actualizar el contenido mostrado en la página, sin recargarla.
+•
+Debe evitarse el filtrado si no se ingresó ningún texto. -->
+</head>
+<body>
+
+    <div id="divFormulario">
+
+    <form id="formulario">
+        <input type="text" name="palabras" id="palabras" placeholder="Ingrese una palabra o parte de ella">
+        <br>
+        <br>
+        <button type="button" id="filtrar">Filtrar</button>
+    </form>
+    </div>
+    <div id="listaFiltrada"></div>
+
+    <br>
+    <br>
+    <h3>Lista Existente</h3>
+    <div id="listaOriginal"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
