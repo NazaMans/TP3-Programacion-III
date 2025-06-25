@@ -1,0 +1,12 @@
+#resultado{
+background-color: aqua;
+}
+
+#error{
+background-color: red;
+}
+
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
