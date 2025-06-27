@@ -25,7 +25,9 @@ function validarCero(){
     }
 }
 
-function calcular(){
+function calcular(e){
+
+    e.preventDefault();
 
    const numero1 = parseFloat(num1.value);
    const numero2 = parseFloat(num2.value);
